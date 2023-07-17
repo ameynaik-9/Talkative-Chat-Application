@@ -51,7 +51,7 @@ const Signup = () => {
         },
       };
       const { data } = await axios.post(
-        "/api/user",
+        "https://talkative-chat-application.onrender.com/api/user",
         {
           name,
           email,
